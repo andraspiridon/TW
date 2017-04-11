@@ -19,6 +19,9 @@ public class User {
     private String email;
     private Date dateOfBirth;
 
+    public User(){
+
+    }
     public User(int user_id, String name, String username, String password, String email, Date dateOfBirth) {
         this.user_id = user_id;
         this.name = name;
